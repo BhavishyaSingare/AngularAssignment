@@ -1,0 +1,24 @@
+.abc{
+    background-color: antiquewhite;
+    text-align:  right;
+    height: 120px;
+    width: 100%;
+    color: whitesmoke;
+    border-top: unset;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, red ,yellow);
+}
+
+.logout{
+    border-radius: 2px; 
+margin-right: 20px;
+}
+
+#x{
+    text-decoration: wavy;
+    text-align-last: left;
+    padding: 22px 0px 10px 0px;
+    width: max-content;
+    font-size: xx-large;
+    
+}

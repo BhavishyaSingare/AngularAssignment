@@ -1,0 +1,22 @@
+<div class="pj">Top PJs
+
+    <input  id = "search" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="Search here">
+  </div>
+  <div class="scroll" infiniteScroll [infiniteScrollDistance]="20" 
+  [infiniteScrollThrottle]="500" (scrolled)="getData()" [scrollWindow]="true" >
+  
+  
+  <mat-accordion *ngFor="let joke of jokes  | filter :searchText">
+          <mat-expansion-panel id=id1>
+                  <mat-expansion-panel-header>
+                    <mat-panel-title id=id2>
+                     {{joke.setup}}
+                      
+                    </mat-panel-title>
+                    <mat-panel-description>
+                     
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+                 punchline: {{joke.punchline }}
+                  </mat-expansion-panel>
+  

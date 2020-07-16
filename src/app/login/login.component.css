@@ -1,0 +1,36 @@
+.example-container {
+    min-width: 150px;
+    max-width: 425px;
+    width: 100%;
+    margin-top: 100px;
+  border: ridge;
+    border-radius: 15px;
+    text-align: -webkit-center;
+    width: 100%;
+    padding: 60px 15px 60px 15px;
+    position: relative;
+    background-color: whitesmoke;
+  }
+
+  /* body{
+    background-image:url("src\\assets\\CzhKOhE.jpg") ;
+
+  } */
+  .xxx{
+
+    height: 100%;
+    margin: auto;
+    border: ridge;
+    text-align: -webkit-center;
+    width: 100%;
+    background-image:url("src\\assets\\misty_forest_4k-wallpaper-1920x600.jpg") ;
+    margin-top: 10px;
+    
+    position: absolute;
+  }
+  
+  .example-full-width {
+    width: 100%;
+
+  }
+  

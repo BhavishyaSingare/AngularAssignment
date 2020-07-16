@@ -1,0 +1,22 @@
+<div class="xxx">
+
+     <div class="example-container" [formGroup] = "profileForm" >
+       <mat-form-field appearance="fill" class="example-full-width">
+        <mat-label>Email</mat-label>
+        <input matInput formControlName ="email" placeholder="abc@xyz.com">
+      </mat-form-field>
+      <mat-form-field appearance="fill"  class="example-full-width">
+        <mat-label>Enter your password</mat-label>
+        <input matInput [type]="hide ? 'password' : 'text'" formControlName ="password">
+        <button mat-icon-button matSuffix (click)="hide = !hide" 
+        [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+    
+      </button>
+    
+        </mat-form-field>
+     
+        
+     <button mat-raised-button	(click) = OnSubmit() >Login</button></div>
+   </div>      
+     <router-outlet></router-outlet>
